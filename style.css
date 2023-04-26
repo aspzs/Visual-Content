@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+nav{
+  background-color: transparent;
+  position: fixed;
+}
+
+ul{
+  list-style: none;
+  color: white;
+
+}
+li {
+  font-size:60pt;
+  font-family: 'Anton', sans-serif;
+}
+
+li:hover{
+  background-color: red;
+}
+
+figcaption{
+  background-color: black;
+  color: white;
+  font-size: 33px;
+  font-family: 'Anton', sans-serif;
+  width: 50%;
+  padding: 10px;
+}    
+
+.titule{
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(255, 255, 255, 0.5); 
+  text-stroke: 1px #333;
+}
+
+
+  
+  .my-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+  }
+  
+  .my-gallery figure {
+    margin: 10px;
+    text-align: center; 
+  }
+  
+  .my-gallery img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+  }
+
+
+  .otrasimgs:hover{
+    transform: scale(1.2);
+  }
+
+  footer{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.5); 
+    text-stroke: 1px #333;
+  }
+
+  #MZ {
+    width: 40%;
+  }
+
+  
